@@ -49,7 +49,7 @@ export async function searchLocations(
   });
 
   if (proximity) {
-    params.append("country", country);
+    params.append("proximity", `${proximity[0]},${proximity[1]}`);
   }
 
   const url = `${MAPBOX_API_BASE}/suggest?${params.toString()}`;

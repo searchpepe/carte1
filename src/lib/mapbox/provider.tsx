@@ -66,7 +66,7 @@ export default function MapProvider({
         <div className="absolute inset-0 flex items-center justify-center bg-background/80 z-[1000]">
           <div className="text-lg font-medium flex items-center gap-2">
             <Loader className="size-5 animate-spin" />
-            Loading map...
+            Chargement de la carte en cours...
           </div>
         </div>
       )}

@@ -48,6 +48,10 @@ export async function searchLocations(
     limit: limit.toString(),
   });
 
+  if (country) {
+    params.append("country", country);
+  }
+  
   if (proximity) {
     params.append("proximity", `${proximity[0]},${proximity[1]}`);
   }

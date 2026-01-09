@@ -26,24 +26,23 @@ const STYLE_OPTIONS: StyleOption[] = [
     icon: <MapIcon className="w-5 h-5" />,
   },
   {
+    id: "outdoors-v12",
+    label: "Terrain",
+    icon: <TreesIcon className="w-5 h-5" />,
+  },
+  {
     id: "satellite-streets-v12",
     label: "Satellite",
     icon: <SatelliteIcon className="w-5 h-5" />,
   },
   {
-    id: "outdoors-v12",
-    label: "Terrain",
-    icon: <TreesIcon className="w-5 h-5" />,
-  },
-
-  {
     id: "light-v11",
-    label: "Light",
+    label: "Lumineux",
     icon: <SunIcon className="w-5 h-5" />,
   },
   {
     id: "dark-v11",
-    label: "Dark",
+    label: "Sombre",
     icon: <MoonIcon className="w-5 h-5" />,
   },
 ];

@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next Maps",
-  description: "Next Maps",
+  title: "Fares Map",
+  description: "Update",
 };
 
 export default function RootLayout({

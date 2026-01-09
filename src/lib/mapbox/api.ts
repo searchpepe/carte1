@@ -33,7 +33,7 @@ export interface RetrieveResponse {
 export async function searchLocations(
   options: SearchOptions
 ): Promise<LocationSuggestion[]> {
-  const { query, country = "FR", limit = 5, proximity, signal } = options;
+  const { query, country, limit = 5, proximity, signal } = options;
 
   const accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
   if (!accessToken) {

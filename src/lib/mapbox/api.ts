@@ -45,12 +45,11 @@ export async function searchLocations(
     q: query,
     access_token: accessToken,
     session_token: sessionToken,
-    country,
     limit: limit.toString(),
   });
 
   if (proximity) {
-    params.append("proximity", `${proximity[0]},${proximity[1]}`);
+    params.append("country", country);
   }
 
   const url = `${MAPBOX_API_BASE}/suggest?${params.toString()}`;

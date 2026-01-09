@@ -65,7 +65,7 @@ export default function MapStyles() {
   }, [map, activeStyle]);
 
   return (
-    <aside className="absolute top-20 right-4 z-10">
+    <aside className="absolute top-20 left-4 sm:top-auto sm:bottom-4 z-10">
       <Tabs value={activeStyle} onValueChange={handleChange}>
         <TabsList className="bg-background shadow-lg">
           {STYLE_OPTIONS.map((style) => (

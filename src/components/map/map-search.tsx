@@ -68,7 +68,7 @@ export default function MapSearch() {
         const suggestions = await searchLocations({
           query: debouncedQuery,
           limit: MAP_CONSTANTS.SEARCH.DEFAULT_LIMIT,
-          proximity: MAP_CONSTANTS.SEARCH.DEFAULT_PROXIMITY,
+          proximity: [2.3488, 48.8534],
           signal: abortController.signal,
         });
 

@@ -3,6 +3,7 @@
 import { useRef } from "react";
 
 import MapProvider from "@/lib/mapbox/provider";
+import Map, { Marker } from "react-map-gl";
 import MapStyles from "@/components/map/map-styles";
 import MapCotrols from "@/components/map/map-controls";
 import MapSearch from "@/components/map/map-search";

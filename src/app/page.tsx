@@ -24,7 +24,6 @@ export default function Home() {
           longitude: 2.3242234,
           latitude: 48.8590808,
           zoom: 15,
-          <Marker longitude={-10.5015863} latitude={30.0654597} color="red" />
         }}
       >
         <MapSearch />

@@ -183,7 +183,7 @@ export default function MapSearch() {
             )}
           >
             <CommandInput
-              placeholder="Search locations..."
+              placeholder="Rechercher un lieu..."
               value={displayValue}
               onValueChange={handleInputChange}
               className="flex-1"
@@ -209,7 +209,7 @@ export default function MapSearch() {
                 <CommandEmpty className="py-6 text-center">
                   <div className="flex flex-col items-center justify-center space-y-1">
                     <p className="text-sm font-medium text-destructive">
-                      Error occurred
+                      Une erreur est survenue
                     </p>
                     <p className="text-xs text-muted-foreground">{error}</p>
                   </div>
@@ -217,9 +217,9 @@ export default function MapSearch() {
               ) : showEmptyState ? (
                 <CommandEmpty className="py-6 text-center">
                   <div className="flex flex-col items-center justify-center space-y-1">
-                    <p className="text-sm font-medium">No locations found</p>
+                    <p className="text-sm font-medium">Aucun lieu trouvé</p>
                     <p className="text-xs text-muted-foreground">
-                      Try a different search term
+                      Essayez un autre terme
                     </p>
                   </div>
                 </CommandEmpty>

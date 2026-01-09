@@ -219,7 +219,7 @@ export default function MapSearch() {
                   <div className="flex flex-col items-center justify-center space-y-1">
                     <p className="text-sm font-medium">Aucun lieu trouvé</p>
                     <p className="text-xs text-muted-foreground">
-                      Essayez un autre terme
+                      Cet endroit n’existe nulle part sur Terre 
                     </p>
                   </div>
                 </CommandEmpty>

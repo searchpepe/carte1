@@ -46,7 +46,7 @@ export async function searchLocations(
     access_token: accessToken,
     session_token: sessionToken,
     limit: limit.toString(),
-    language: "fr",
+    url.searchParams.set("language", "fr");
     proximity: 'ip',
   });
 
